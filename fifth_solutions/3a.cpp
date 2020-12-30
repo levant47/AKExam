@@ -1,7 +1,7 @@
 #include <iostream>
 
 void main() {
-    float A = 2.3, B = 3.2, C = 1.0, S = 1000.0, an = 0;
+    float A = 2.3, B = 3.2, C = 1.0, S = 900.0, an = 0;
     long n = 0;
 
     _asm {
@@ -16,11 +16,11 @@ void main() {
 
         fadd an        // добавляем к общей сумме
 
-        fld S        // st = 1000
-        fcomi ST, ST(1)    // сравнение st(1) с 1000
+        fld S        // st = 900
+        fcomi ST, ST(1)    // сравнение st(1) с 900
         fxch        // обмен регистров ST(0) и ST(1)
         fstp an        // выгружаем вершину в an
-        ja m1        // прижок при an < 1000
+        ja m1        // прижок при an < 900
 
     }
 
