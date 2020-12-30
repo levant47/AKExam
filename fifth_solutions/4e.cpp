@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    #define V 20
+    #define V 15
     long X = 0;
     long RESULT;
 
