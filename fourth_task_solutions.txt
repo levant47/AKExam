@@ -1,3 +1,7 @@
+2.
+    Код: https://codesandbox.io/s/naughty-haze-bbvgu
+    Сайт: https://bbvgu.csb.app/
+
 3.
     Код: https://codesandbox.io/s/react-hooks-usestate-forked-lmrk4
     Сайт: https://lmrk4.csb.app/
