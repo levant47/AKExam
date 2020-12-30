@@ -7,8 +7,8 @@
     Сайт: https://bbvgu.csb.app/
 
 3.
-    Код: https://codesandbox.io/s/react-hooks-usestate-forked-lmrk4
-    Сайт: https://lmrk4.csb.app/
+    Код: https://codesandbox.io/s/react-hooks-usestate-forked-h7k4u
+    Сайт: https://h7k4u.csb.app/
 
 4.
     Код: https://codesandbox.io/s/silly-cdn-d66sw
