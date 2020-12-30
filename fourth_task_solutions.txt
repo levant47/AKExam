@@ -1,3 +1,7 @@
+1.
+    Код: https://codesandbox.io/s/ecstatic-jones-0569o
+    Сайт: https://0569o.csb.app/
+
 2.
     Код: https://codesandbox.io/s/naughty-haze-bbvgu
     Сайт: https://bbvgu.csb.app/
