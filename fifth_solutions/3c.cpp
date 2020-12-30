@@ -1,35 +1,58 @@
-#include<stdio.h>
+#include <stdio.h>
 
-void main() {
-    #define S 1000
-    short X = 0;                         // Инициализация переменной
+int main()
+{
+    int result;
+    const float a = 3.f;
+    const float b = -5.f;
+    const float c = 12.f;
+    const float zero = 0;
+    const float margin = 1250.f;
 
-    __asm {
+    __asm
+    {
+        fld1
+        fld zero
 
-        CIKL :                           // Метка цикла
+        loop_start:
 
+        ; n²
+        fld ST(1)
+        fld ST(0)
+        fmul
 
-            MOV AX, 3                    // Помещаем 9 в регистр АХ
-            MUL X                        // и умножаем на переменную в степени 2
-            MUL X
-            MOV BX, AX                   // Заносим результат в регистр ВХ
+        ; 3 * n²
+        fld a
+        fmul
 
-            MOV AX, 5                    // Помещаем 8 в регистр АХ
-            MUL X                        // Умножаем на значение переменной
-            SUB BX, AX                   // Вычитаем результаты и прибавляем 15
-            ADD BX, 12
+        ; -5 * n
+        fld ST(2)
+        fld b
+        fmul
 
+        ; 3 * n² - 5 * n
+        fadd
 
+        ; 3 * n² - 5 * n + 12
+        fld c
+        fadd
 
-            CMP BX, S            // Сравниваем значение функции с необходимым
-            JA END                       // Если значение выше - выходим из цикла
+        ; sum += 3 * n² - 5 * n + 12
+        fadd
 
-            INC X                        // Если ниже - возвращаемся в тело цикла
-            JMP CIKL
-        END :                            // Метка выхода из цикла
-    };
+        fld margin
+        fcomip ST(0), ST(1)
+        jbe end
 
-    printf("%d\n", X);
+        fld1
+        fadd ST(0), ST(2)
+        fstp ST(2)
+        jmp loop_start
 
-    #undef S
+        end:
+        fstp ST(0)
+        fist result
+    }
+
+    printf("%d\n", result);
 }
