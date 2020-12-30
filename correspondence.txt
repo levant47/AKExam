@@ -2,6 +2,7 @@ third group     form last year
 1               -
 3               -
 4               24
+5               13
 6               1
 7               29
 9               -
