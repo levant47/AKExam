@@ -1,6 +1,20 @@
-[Ссылка на билетики](https://drive.google.com/drive/folders/1VnlyAEhTKNXKt-aoDV1HyRHdxPxiFAY3?usp=sharing).
+# Ссылки
 
 [Ссылка на ответы на теорию](https://drive.google.com/file/d/1EtAFewUYQsPZlOyLdkhRSFMOzhCp_ZJ7/view?usp=sharing) (это PDF, в папке можно найти еще docx версию).
 
-[Ссылка на всю папочку](https://drive.google.com/drive/folders/1mzpvQL75ND774b9AK7FniaXszh71yn7H?usp=sharing).
+[Ссылка на всю папочку на диске](https://drive.google.com/drive/folders/1mzpvQL75ND774b9AK7FniaXszh71yn7H?usp=sharing).
+
+[Ссылка на архив билетиков](https://drive.google.com/drive/folders/1VnlyAEhTKNXKt-aoDV1HyRHdxPxiFAY3?usp=sharing).
+
+# 1-3 задания
+
+Переходите по [ссылке на ответы на теорию](https://drive.google.com/file/d/1EtAFewUYQsPZlOyLdkhRSFMOzhCp_ZJ7/view?usp=sharing) и находите свой вопрос. Не копируйте все слово в слово, кроме разве что рисунков, обязательно перефразируйте все и почитайте еще материал по теме, ибо ваш ответ еще на собеседовании защищать прийдется.
+
+# 4 задание
+
+Открываете [файл fourth_task.txt в репозитории](https://github.com/levant47/AKExam/blob/master/fourth_task.txt), находите свой тип задачи (1-4) и открываете ссылку на *сайт*, не на код. Там будет формочка в которую вам нужно вписать числа из вашего задания, после этого ниже появится решение с ответом. Решение будет относительно минималистичным, так что можете добавить чего-то от себя, типа больше описаний или схем. Также сайт обычно быстро загружается, но иногда может секунд 5-10 что-то там у себя подгружать.
+
+# 5 заданиe
+
+Для пятого вам для начало нужно будет определить номер вариации вашего задания с помощью [файла fifth_task_variations.txt в репозитории](https://github.com/levant47/AKExam/blob/master/fifth_task_variations.txt), берет номер типа и букву варианта и у вас получится что-то типа 2a или 3c. После этого переходите в [папку fifth_solutions](fourth_task) и открываете файл именем соотвутсвующим номеру вариации, типа 2a.cpp или 3c.cpp. В файле будет решение вашего задания, рекомендуется добавить комментариев на вкус, переименовать пару переменных и попытаться понять что инструкции делают, ибо это спрашивают на собеседовании.
 
